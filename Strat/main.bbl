@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{austin2023structureddenoisingdiffusionmodels}
+Jacob Austin, Daniel~D. Johnson, Jonathan Ho, Daniel Tarlow, and Rianne van~den Berg.
+\newblock Structured denoising diffusion models in discrete state-spaces, 2023.
+
+\bibitem{ho2020denoisingdiffusionprobabilisticmodels}
+Jonathan Ho, Ajay Jain, and Pieter Abbeel.
+\newblock Denoising diffusion probabilistic models, 2020.
+
+\bibitem{li2022diffusionlmimprovescontrollabletext}
+Xiang~Lisa Li, John Thickstun, Ishaan Gulrajani, Percy Liang, and Tatsunori~B. Hashimoto.
+\newblock Diffusion-lm improves controllable text generation, 2022.
+
+\bibitem{vaswani2023attentionneed}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need, 2023.
+
+\end{thebibliography}
