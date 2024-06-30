@@ -3,7 +3,6 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: cite.bib
-Warning--I didn't find a database entry for ""
 You've used 6 entries,
             2118 wiz_defined-function locations,
             520 strings with 9935 characters,
@@ -45,4 +44,3 @@ warning$ -- 0
 while$ -- 12
 width$ -- 7
 write$ -- 50
-(There was 1 warning)

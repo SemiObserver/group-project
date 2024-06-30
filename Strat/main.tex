@@ -12,10 +12,10 @@
 % \author{Lin Yuheng}
 \author{8-Hengke Jiang, 11-Rock, 13-Yuting Jiang, 30-Ethan, 35-Jade Lin}
 
-\institute[] % (optional)
-{ 
-  {linyh63@mail2.sysu.edu.cn}
-}
+% \institute[] % (optional)
+% { 
+%   {linyh63@mail2.sysu.edu.cn}
+% }
 
 \date[6.30.2024] % (optional)
 % {Agust 25, 2023}
@@ -63,7 +63,7 @@
   \end{figure}
 
   Base on Denoising Diffusion Probabilistic Models(2020, DDPM\cite{ho2020denoisingdiffusionprobabilisticmodels})
-  diffusion(2021, \cite{austin2023structureddenoisingdiffusionmodels}) and continuous diffusions(2022, Diffusion-LM\cite{li2022diffusionlmimprovescontrollabletext}) are introduced to improve non-autoregressive(NAR) text generation.\cite{}
+  diffusion(2021, \cite{austin2023structureddenoisingdiffusionmodels}) and continuous diffusions(2022, Diffusion-LM\cite{li2022diffusionlmimprovescontrollabletext}) are introduced to improve non-autoregressive(NAR) text generation.
 
 \end{frame}
 \begin{frame}
@@ -76,8 +76,13 @@
     it to consider the context from both left
     and right;
     \item pre-trained on vast amounts of text data from diverse sources in an unsupervised
-    manner. 
+    manner(340 million parameters).
   \end{itemize}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{pictures/微信图片_20240630203856.png}
+    % \caption{}
+  \end{figure}
 \end{frame}
 \begin{frame}
   \frametitle{Generative Pre-trained Transformers}
@@ -87,15 +92,37 @@
     \item causal self-attention;
     \item pre-trained on vast amounts of text data from diverse sources in an unsupervised
     manner;
-    \item Turing test score: 49.7\%(human 66\%), high command of computing power.
+    \item Turing test score: 49.7\%(human 66\%), high command of computing power.(100 trillion)
   \end{itemize}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm]{D:/Pictures/Screenshots/屏幕截图 2024-06-30 203415.png}
+    % \caption{}
+  \end{figure}
 \end{frame}
 \section{Plan and choice}
 \begin{frame}
-  \frametitle{GPT}
-  note: We will try to find a SOA model along with a dataset with affordable computing power requirements.\\\
+  \frametitle{Text classification}
+  Assigning a sentence or document an appropriate category.
+  Begin from small datasets
+  %\frametitle{}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm]{D:/Pictures/Screenshots/1_ljCBykAJUnvaZcuPYwm4_A.png}
+    \caption{11mb}
+  \end{figure}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm]{D:/Pictures/Screenshots/屏幕截图 2024-06-30 204836.png}
+    \caption{4mb}
+  \end{figure}
+\end{frame}
+\begin{frame}
+  \frametitle{Challenge in Text classification}
+  \begin{enumerate}
+    \item High Dimensionality:Text data often have a large vocabulary;most documents use only a small subset of the vocabulary, resulting in sparse feature representations.
+  \end{enumerate}
   
-  If Language Modelling is not acceptable, we will turn to text classification/question answering, or GAN(one of our members already implemented a SOA method with it).
 \end{frame}
 % \begin{frame}
 %   %\frametitle{}
