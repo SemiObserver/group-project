@@ -37,8 +37,9 @@
   
   \begin{figure}[H]
     \centering
-    \includegraphics[width=8cm]{D:/Pictures/Screenshots/屏幕截图 2024-06-30 163118.png}
+    \includegraphics[width=8cm]{pictures/屏幕截图 2024-06-30 163118.png}
   \end{figure}
+
 \end{frame}
 \begin{frame}
   \frametitle{History}
@@ -53,27 +54,58 @@
   \frametitle{Attention is all you need}
   \begin{figure}[H]
     \centering
-    \includegraphics[width=8cm]{D:/Pictures/Screenshots/屏幕截图 2024-06-30 171741.png}
+    \includegraphics[width=8cm]{pictures/屏幕截图 2024-06-30 171741.png}
   \end{figure}
   Transformers use self-attention mechanisms to process input sequences in parallel, making them highly efficient and effective.(6.2017\cite{vaswani2023attentionneed})\\\
   \begin{figure}[H]
     \centering
-    \includegraphics[width=8cm]{D:/Pictures/Screenshots/屏幕截图 2024-06-30 171707.png}
+    \includegraphics[width=8cm]{pictures/屏幕截图 2024-06-30 171707.png}
   \end{figure}
 
   Base on Denoising Diffusion Probabilistic Models(2020, DDPM\cite{ho2020denoisingdiffusionprobabilisticmodels})
-  diffusion(2021, \cite{austin2023structureddenoisingdiffusionmodels}) and continuous diffusions(2022, Diffusion-LM\cite{li2022diffusionlmimprovescontrollabletext}) are introduced to improve non-autoregressive(NAR) text generation.
+  diffusion(2021, \cite{austin2023structureddenoisingdiffusionmodels}) and continuous diffusions(2022, Diffusion-LM\cite{li2022diffusionlmimprovescontrollabletext}) are introduced to improve non-autoregressive(NAR) text generation.\cite{}
 
+\end{frame}
+\begin{frame}
+  \frametitle{Bidirectional Encoder Representations from Transformers}
+  2018, BERT\cite{devlin2019bertpretrainingdeepbidirectional}.
+  \begin{itemize}
+    \item previous NLP models processed
+    text in a single direction, BERT uses Transformer architecture
+    with self-attention mechanisms, allowing
+    it to consider the context from both left
+    and right;
+    \item pre-trained on vast amounts of text data from diverse sources in an unsupervised
+    manner. 
+  \end{itemize}
+\end{frame}
+\begin{frame}
+  \frametitle{Generative Pre-trained Transformers}
+  2023, GPT4\cite{openai2024gpt4technicalreport}.
+  \begin{itemize}
+    \item uses only the decoder part of the Transformer architecture, focuses on the generative aspect of the model;
+    \item causal self-attention;
+    \item pre-trained on vast amounts of text data from diverse sources in an unsupervised
+    manner;
+    \item Turing test score: 49.7\%(human 66\%), high command of computing power.
+  \end{itemize}
+\end{frame}
+\section{Plan and choice}
+\begin{frame}
+  \frametitle{GPT}
+  note: We will try to find a SOA model along with a dataset with affordable computing power requirements.\\\
+  
+  If Language Modelling is not acceptable, we will turn to text classification/question answering, or GAN(one of our members already implemented a SOA method with it).
 \end{frame}
 % \begin{frame}
 %   %\frametitle{}
 %   \begin{figure}[H]
 %     \centering
-%     \includegraphics[width=10cm]{D:/Pictures/Screenshots/}
+%     \includegraphics[width=10cm]{pictures/}
 %     % \caption{}
 %   \end{figure}
 % \end{frame}
-\begin{frame}{Bibliography}
+\begin{frame}[allowframebreaks]{Bibliography}
   \bibliography{cite.bib}
 \end{frame}
 \end{document}
