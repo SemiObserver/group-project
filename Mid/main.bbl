@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{devlin2019bertpretrainingdeepbidirectional}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language understanding, 2019.
+
+\bibitem{he2023debertav3improvingdebertausing}
+Pengcheng He, Jianfeng Gao, and Weizhu Chen.
+\newblock Debertav3: Improving deberta using electra-style pre-training with gradient-disentangled embedding sharing, 2023.
+
+\bibitem{he2021debertadecodingenhancedbertdisentangled}
+Pengcheng He, Xiaodong Liu, Jianfeng Gao, and Weizhu Chen.
+\newblock Deberta: Decoding-enhanced bert with disentangled attention, 2021.
+
+\bibitem{lan2020albertlitebertselfsupervised}
+Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and Radu Soricut.
+\newblock Albert: A lite bert for self-supervised learning of language representations, 2020.
+
+\bibitem{vaswani2023attentionneed}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need, 2023.
+
+\end{thebibliography}

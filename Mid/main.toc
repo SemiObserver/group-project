@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Text classification and dataset}{2}{0}{1}
+\beamer@sectionintoc {2}{BERT and modified BERT}{7}{0}{2}
+\beamer@sectionintoc {3}{Implement and result}{15}{0}{3}
+\beamer@sectionintoc {4}{Further steps to be taken}{24}{0}{4}
